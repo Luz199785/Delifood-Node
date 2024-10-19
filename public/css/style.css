@@ -1,0 +1,55 @@
+
+.navbar {
+    background-color: #333; 
+}
+
+
+#nav-link {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 20px; 
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+#nav-link:hover {
+    color: #ffcc00; 
+}
+
+
+.navbar .nav {
+    justify-content: center;
+}
+
+
+.container-fluid {
+    padding: 0;
+}
+
+
+main{
+    font-family: 'Roboto', sans-serif;
+    background-color:bisque;
+    color: rgb(43, 43, 43);
+}
+
+.carousel-item img {
+    height: 400px; 
+    object-fit: cover; 
+    width: 100%;
+}
+
+p{  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.autor{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}

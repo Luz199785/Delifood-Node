@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../includes/head') %>
+        <title>API</title>
+</head>
+
+<body>
+    <%- include('../includes/header') %>
+
+        <div class="container">
+            <div class="row text-center mt-5">
+                <h1 class="display-6">Busca tu comida</h1>
+            </div>
+            <hr>
+            <div class="row mt-5">
+                <div class="input-group">
+                    <button class="btn btn-outline-warning" type="button" id="search-button">Search</button>
+                    <select class="form-select" id="category" aria-label="Example select with button addon">
+                        <option selected>Escoge una categoria...</option>
+                        <option value="1">Beef</option>
+                        <option value="2">Breakfast</option>
+                        <option value="3">Chicken</option>
+                        <option value="4">Dessert</option>
+                        <option value="5">Goat</option>
+                        <option value="6">Lamb</option>
+                        <option value="7">Miscellaneous</option>
+                        <option value="8">Pasta</option>
+                        <option value="9">Pork</option>
+                        <option value="10">Seafood</option>
+                        <option value="11">Side</option>
+                        <option value="12">Starter</option>
+                        <option value="13">Vegan</option>
+                        <option value="14">Vegetarian</option>
+                    </select>
+                </div>
+
+            </div>
+            <div id="show-meals" class="row row-cols-3 row-cols-md-3 row-cols-sm-2 g-2 my-5"></div>
+        </div>
+
+
+        <section class="container">
+            <div id="mostrar-resultado-api"
+                class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 g-4 justify-content-center"></div>
+        </section>
+
+        <%- include('../includes/scripts') %>
+
+</body>
+
+</html>
